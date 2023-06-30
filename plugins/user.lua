@@ -9,4 +9,11 @@ return {
   --     require("lsp_signature").setup()
   --   end,
   -- },
+     {
+       "ofirgall/ofirkai.nvim",
+       event = "BufRead",
+        config = function()
+          require("ofirkai").setup()
+        end,
+     }
 }
