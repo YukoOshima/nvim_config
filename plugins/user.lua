@@ -9,11 +9,15 @@ return {
   --     require("lsp_signature").setup()
   --   end,
   -- },
-     {
-       "ofirgall/ofirkai.nvim",
-       event = "BufRead",
-        config = function()
-          require("ofirkai").setup()
-        end,
-     }
+  {
+    "jcdickinson/codeium.nvim",
+    dependencies = {
+      "nvim-lua/plenary.nvim",
+      "hrsh7th/nvim-cmp",
+    },
+    config = function()
+      require("codeium").setup({
+      })
+    end
+  },
 }
