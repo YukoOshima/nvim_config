@@ -10,10 +10,15 @@ return {
     --   end,
     -- }, 
     {
-        "jcdickinson/codeium.nvim",
+        "jcdickinson/http.nvim",
+        build = "cargo build --workspace --release"
+    },
+    {
+        "YukoOshima/codeium.nvim",
         event = "BufRead",
-        commit = "b1ff0d6c993e3d87a4362d2ccd6c660f7444599f",
+        lazy=false,
         requires = {
+            "jcdickinson/http.nvim",
             "nvim-lua/plenary.nvim",
             "hrsh7th/nvim-cmp",
         },
