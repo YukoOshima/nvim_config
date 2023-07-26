@@ -5,6 +5,8 @@ return {
   -- available plugins can be found at https://github.com/AstroNvim/astrocommunity
 
   -- { import = "astrocommunity.colorscheme.catppuccin" },
+  { import = "astrocommunity.pack.go"},
+  { import = "astrocommunity.git.git-blame-nvim"},
   { import = "astrocommunity.completion.copilot-lua-cmp" },
   { import = "astrocommunity.completion.copilot-lua" },
   { import = "astrocommunity.pack.typescript-all-in-one" },
@@ -12,7 +14,6 @@ return {
   { import = "astrocommunity.pack.html-css" },
   { import = "astrocommunity.pack.python" },
   { import = "astrocommunity.pack.json" },
-  { import = "astrocommunity.note-taking.neorg"},
   { import = "astrocommunity.note-taking.obsidian-nvim"},
   { import = "astrocommunity.motion.harpoon"},
   { import = "astrocommunity.project.project-nvim"},
