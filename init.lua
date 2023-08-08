@@ -18,7 +18,7 @@ return {
   },
 
   -- Set colorscheme to use
-  -- colorscheme = "astrodark",
+  -- colorscheme = "bluloco-dark",
   -- colorscheme = "vscode-nvim",
 
   -- Diagnostics configuration (for vim.diagnostics.config({...})) when diagnostics are on
