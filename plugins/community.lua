@@ -15,6 +15,7 @@ return {
   { import = "astrocommunity.pack.python" },
   { import = "astrocommunity.pack.json" },
   { import = "astrocommunity.note-taking.obsidian-nvim"},
+  { import = "astrocommunity.note-taking.neorg"},
   { import = "astrocommunity.motion.harpoon"},
   { import = "astrocommunity.project.project-nvim"},
   { import = "astrocommunity.colorscheme.gruvbox-baby"},
